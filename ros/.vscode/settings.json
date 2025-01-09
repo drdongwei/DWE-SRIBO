@@ -1,0 +1,33 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/scarlett/serial_imu_ws/devel/lib/python3/dist-packages",
+        "/home/scarlett/catkin_ws/devel/lib/python3/dist-packages",
+        "/home/scarlett/mavros_ws/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/scarlett/serial_imu_ws/devel/lib/python3/dist-packages",
+        "/home/scarlett/catkin_ws/devel/lib/python3/dist-packages",
+        "/home/scarlett/mavros_ws/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ],
+    "C_Cpp.errorSquiggles": "disabled",
+    "files.associations": {
+        "iosfwd": "cpp",
+        "cmath": "cpp",
+        "array": "cpp",
+        "string": "cpp",
+        "string_view": "cpp",
+        "*.ipp": "cpp",
+        "bitset": "cpp",
+        "hash_map": "cpp",
+        "hash_set": "cpp",
+        "initializer_list": "cpp",
+        "utility": "cpp",
+        "functional": "cpp",
+        "ostream": "cpp",
+        "iostream": "cpp",
+        "random": "cpp",
+        "complex": "cpp"
+    }
+}

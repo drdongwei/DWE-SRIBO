@@ -1,0 +1,9 @@
+<launch>
+
+    <node pkg="sribo" type="sribo_main" name="sribo_main" output="screen">
+        <!-- param: [estimated] used for sribo_estimation onboard /[rosbag] used for sribo_estimation with recorded rosbag-->
+        <param name="dataType" type="string" value="estimated" />
+        <rosparam command="load" file="$(find sribo)/param/sribo_param.yaml" />
+    </node>
+
+</launch>

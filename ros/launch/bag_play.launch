@@ -1,0 +1,3 @@
+<launch>
+    <node name="bag_player" pkg="rosbag" type="play" args="$(find sribo)/data/onboard_record/F0.bag" />
+</launch>
